@@ -38,6 +38,9 @@ print(game[-1])
 game.extend(["pubg","clash royale"])              #extend(add list to another list as individual)
 print(game)
 
+fruit=["apple","grapes"]                          #copy(clone data)
+a=fruit.copy()
+print(a is fruit)
 
 
 
