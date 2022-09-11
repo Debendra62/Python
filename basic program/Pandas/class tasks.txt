@@ -1,0 +1,31 @@
+Import data using read_csv()
+
+1. Change column names: 
+	a. Use rename function or any logic you can create by your own?
+	b. Change Revenue (Millions) to Revenue
+	c. Change Runtime (Minutes) to Runtime
+
+2. Change column names to Lower case [Take "code reference" from yesterday's code if you have confusion]
+
+3. Check and Fill NA values of both revenue and metascore columns with appropriate values (use mean, median, or drop it)
+
+4. Create a function name called "check_revenue" and pass dataframe "revenue data" i.e. df["revenue"]
+ 	to it one by one (using apply) and if revenue is more than average (mean) value of df["revenue"] then return 
+	"blockbuster" else return "not blockbuster"
+
+5. Add new column named as "performance" and add whether movie is "blockbuster" or "not blockbuster" to it (use output from number 4)
+
+6. Print and Analyze which director gave blockbuster and which did not.
+
+7.  Slicing and indexing:
+	a. print "director" column as Series
+	b. print "director" column as DataFrame
+	c. print first 10 rows and first 3 columns using loc and iloc
+
+8. Fetch two Directors: Christopher Nolan, and Quentin Tarantino (separately) and:
+	a. find their movies average (mean) rating
+	b. Find what genres of movie they make?
+
+
+
+	
